@@ -2,7 +2,7 @@
 
 body {
     background-color: rgb(37, 133, 37);
-    size: 15px;
+    size:5px;
 }
 
 p{
@@ -25,28 +25,41 @@ h5{
     size: 2px;
 }
 /* Formatação de imagens com legendas*/
+
 figure.foto-legenda{
-    border: 3px solid white;
-    box-shadow: 1px 1px 5px black;
-    width: auto;
-    height: auto;
+    border: 4px solid rgba(104, 103, 103, 0.548);
+    box-shadow: 2px 2px 6px black;
+    width: 95px;
+    height: 95px;
 }
 figure.foto-legenda img {
-    width: 100%;
-    height: 100%;
+    width: 95px;
+    height: 95px;
 }
 figure.foto-legenda figcaption{
     opacity: 0%;
-    position: absolute;
-    top: 0px;
-    background-color: rgba(0, 0, 0, .4);
-    color: whitesmoke;
-    width: 100%;
-    height: 100%;
-    padding: 10px;
+    position: relative;
+    top: -90px;
+    background-color: rgba(0, 0, 0, .2);
+    color: rgb(245, 244, 244);
+    width: 95px;
+    height: 86px;
+    padding: none;
     box-sizing: border-box;
 }
 figure.foto-legenda:hover figcaption{
-    opacity: 1;
-    transition: 2s;
+    opacity: 100%;
+    transition: 3s;
+    
 }
+
+figure.logo{
+    border: 4px solid rgba(104, 103, 103, 0.548);
+    box-shadow: 2px 2px 6px black;
+    width: 95px;
+    height: 95px;
+}
+    figure.logo img {
+        width: 95px;
+        height: 95px;
+    }
