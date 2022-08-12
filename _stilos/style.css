@@ -63,3 +63,26 @@ figure.logo{
         width: 95px;
         height: 95px;
     }
+
+/* Formatação do menu de navegação, quando ultilizamos id colocamos para identificar '#' */
+nav#menu{
+    display: block;
+}
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -15px;
+    left: 480px;
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: #dddd;
+    padding: 4px;
+    margin: 4px;
+}
+
+nav#menu h1{
+    display: none;
+}
