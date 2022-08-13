@@ -2,12 +2,13 @@
 
 body {
     background-color: rgb(37, 133, 37);
-    size:5px;
+    
 }
 
 p{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: justify;
+    size: 1px;
 }
 
 h1{
@@ -20,9 +21,7 @@ h2{
 }
 
 h5{
-
     text-align: left;
-    size: 2px;
 }
 /* Formatação de imagens com legendas*/
 
