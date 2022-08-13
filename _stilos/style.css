@@ -88,7 +88,7 @@ nav#menu ul{
 
 nav#menu li{
     display: inline-block;
-    background-color: #dddddd;
+    background-color: transparent;
     padding: 4px;
     margin: 4px;
     transition: .5s;
@@ -96,7 +96,6 @@ nav#menu li{
 
 nav#menu li:hover{
     background-color: #606060;
-    
 }
 nav#menu h1{
     display: none;
