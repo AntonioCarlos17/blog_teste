@@ -27,47 +27,57 @@ h5{
 /* Formatação de imagens com legendas*/
 
 figure.foto-legenda{
-    border: 4px solid rgba(104, 103, 103, 0.548);
-    box-shadow: 2px 2px 6px black;
-    width: 95px;
-    height: 95px;
+    border: 6px solid rgba(255, 254, 254, 0.993);
+    box-shadow: 2px 3px 6px black;
+    width: 150px;
+    height: 140px;
+    position: relative;
+    left: 350px;
 }
 figure.foto-legenda img {
-    width: 95px;
-    height: 95px;
+    width: 150px;
+    height: 140px;
 }
 figure.foto-legenda figcaption{
     opacity: 0%;
-    position: relative;
-    top: -90px;
-    background-color: rgba(0, 0, 0, .2);
-    color: rgb(245, 244, 244);
-    width: 95px;
-    height: 86px;
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    background-color: rgba(5, 1, 1, 0.5);
+    color: rgb(170, 238, 198);
+    width: 150px;
+    height: 140px;
     padding: none;
     box-sizing: border-box;
 }
 figure.foto-legenda:hover figcaption{
     opacity: 100%;
     transition: 3s;
-    
 }
 
 figure.logo{
     border: 4px solid rgba(104, 103, 103, 0.548);
     box-shadow: 2px 2px 6px black;
-    width: 95px;
-    height: 95px;
+    width: 1100px;
+    height: 220px;
+    position: relative;
+    top: -15px;
+    left: -48px;
 }
-    figure.logo img {
-        width: 95px;
-        height: 95px;
-    }
+figure.logo img {
+        width: 1099px;
+        height: 220px;
+        position: relative;
+        top: 0px;
+        left: 0px;
+ }
 
 /* Formatação do menu de navegação, quando ultilizamos id colocamos para identificar '#' */
+
 nav#menu{
     display: block;
 }
+
 nav#menu ul{
     list-style: none;
     text-transform: uppercase;
@@ -78,11 +88,25 @@ nav#menu ul{
 
 nav#menu li{
     display: inline-block;
-    background-color: #dddd;
+    background-color: #dddddd;
     padding: 4px;
     margin: 4px;
+    transition: .5s;
 }
 
+nav#menu li:hover{
+    background-color: #606060;
+    
+}
 nav#menu h1{
     display: none;
+}
+nav#menu a{
+    color: #000000;
+    text-decoration: none;
+}
+
+nav#menu a:hover{
+    color: white;
+    text-decoration: underline;
 }
