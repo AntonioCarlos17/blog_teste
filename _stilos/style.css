@@ -1,38 +1,45 @@
 @charset "UTF-8";
 
 body {
-    background-color: rgb(165, 224, 252);
+    background-color: rgb(183, 235, 211);
+    
     
 }
 
 div#interface{
+    font-family: 'Playfair Display', serif;
     width: 940px;
-    background-color: #c2d4d0a9;
+    background-color: #f1e5e5;
     padding: 10px;
-    margin: -20px auto 0px auto;
-    box-shadow: 5px 5px 10px rgb(204, 195, 195);
+    margin: -19px auto 0px auto;
+    box-shadow: 0px 3px 5px 5px rgb(58, 54, 54);
 }
 
 hgroup{
-    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    
 }
 
 p{
-    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Playfair Display', serif;
     text-align: justify;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 h1{
+    font-family: 'Playfair Display', serif;
     text-align: center;
     text-decoration: underline;
 }
 
 h2{
+    font-family: 'Playfair Display', serif;
     text-align: center;
 }
 
 h5{
+    font-family: 'Playfair Display', serif;
     text-align: left;
 }
 
@@ -69,20 +76,20 @@ figure.foto-legenda:hover figcaption{
 }
 
 figure.logo{
-    border: 4px solid rgba(104, 103, 103, 0.548);
-    box-shadow: 2px 2px 6px black;
+    border: 4px solid rgba(68, 128, 86, 0.548);
+    box-shadow: 4px 3px 7px rgb(175, 171, 171);
     width: 950px;
-    height: 229px;
+    height: 328px;
     position: relative;
-    top: -15px;
-    left: -50px;
+    top: -18px;
+    left: -49px;
 }
 figure.logo img {
-        width: 949px;
-        height: 230px;
+        width: 952px;
+        height: 328px;
         position: relative;
         top: 0px;
-        left: 0px;
+        left: -1px;
  }
 
 /* Formatação do menu de navegação, quando ultilizamos id colocamos para identificar '#' */
@@ -101,24 +108,24 @@ nav#menu ul{
 
 nav#menu li{
     display: inline-block;
-    background-color: transparent;
+    background-color: none;
     padding: 4px;
     margin: 4px;
-    transition: .8s;
+    transition: 1.2s;
 }
 
 nav#menu li:hover{
-    background-color: #606060;
+    background-color: #ffffff;
 }
 nav#menu h1{
     display: none;
 }
 nav#menu a{
-    color: #000000;
+    color: #f8f4f4;
     text-decoration: none;
 }
 
 nav#menu a:hover{
-    color: white;
+    color: rgb(8, 8, 8);
     text-decoration: underline;
 }
